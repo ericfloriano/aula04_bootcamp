@@ -12,9 +12,17 @@ produto_02 = {
     "disponibiidade":False
 }
 
+produto_03 = {
+    "nome":"calca",
+    "quantidade":2,
+    "preco":38.50,
+    "disponibiidade":True
+}
+
 carrinho: list = []
 
 carrinho.append(produto_01)
 carrinho.append(produto_02)
+carrinho.append(produto_03)
 
 print(carrinho)
